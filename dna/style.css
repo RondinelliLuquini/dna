@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+.header{
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(./assets/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.95;
+}
+
+.top{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+#dnalogo{
+    display: block;
+    position: absolute;
+    left: 100px;
+    top: 40px;   
+}
+
+.menu{
+    display: block;
+    position: absolute;
+    right: 140px;
+    top: 40px;
+    cursor: pointer;
+}
+
+.search{
+    display: block;
+    position: absolute;
+    right: 100px;
+    top: 40px;
+    cursor:pointer   
+}
+
+.content{
+    display: block;
+    position: absolute;
+    top: 40%;
+    left: 350px;
+    transform: translateX(-50%) translateY(-50%);
+    color: white;
+    font-family: 'Montserrat', sans-serif;  
+}
+
+
+#toptx{
+    font-size: 23px;
+}
+#midtx{
+    font-weight: bolder;
+    font-size: 37px;
+}
+#bttx{
+    font-size: 23px;
+}
+
+button{
+    background-color: #C7AB77;
+    border:none;
+    width: 53%;
+    padding: 10px;
+    color:white;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #B3996B;
+}
+
+.whatsapp{
+    right: -135px;
+    top: 50%;
+    cursor: pointer;
+    position: fixed;
+    width: 190px;
+}
+
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    margin-left: 9%;
+    width: 125vh;
+    left: 40%;
+    top: 92%;
+    height: 150px;
+    display: flex;
+    background:rgba(0, 0, 0, 0.4);
+    transform: translate(-50%,-50%);
+    
+  }
+
+
+  .content1{
+    display: block;
+    position: absolute;
+    top: 54%;
+    left: 170px;
+    transform: translateX(-50%) translateY(-50%);
+    color: white;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 20px ; 
+    font-weight: normal;
+    
+}
+
+#tx1bolder{
+    font-weight: bolder;
+}
+
+#linha-vertical1 {
+    display: block;
+    position: absolute;
+    height: 150px;
+    left: 380px;
+    border-right: 1px solid rgba(185, 184, 184, 0.1);
+}
+
+#arrow{
+    display: block;
+    position: absolute;
+    left: 370px;
+    top: 69px;   
+}
+
+#processos{
+    display: block;
+    position: absolute;
+    left: 430px;
+    top: 40px;
+    color: white;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 12px ; 
+    font-weight: bold; 
+    text-align: center;
+    cursor: pointer;  
+}
+
+#linha-vertical2 {
+    display: block;
+    position: absolute;
+    height: 150px;
+    left: 570px;
+    border-right: 1px solid rgba(185, 184, 184, 0.1);
+}
+
+#separador1{
+    display: block;
+    position: absolute;
+    left: 565px;
+    top: 73px;   
+}
+
+#gestao{
+    display: block;
+    position: absolute;
+    left: 630px;
+    top: 20px;
+    color: white;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 12px ; 
+    font-weight: bold;  
+    text-align: center;
+    cursor: pointer; 
+}
+
+#linha-vertical3 {
+    display: block;
+    position: absolute;
+    height: 150px;
+    left: 760px;
+    border-right: 1px solid rgba(185, 184, 184, 0.1);
+}
+
+#separador2{
+    display: block;
+    position: absolute;
+    left: 755px;
+    top: 73px;   
+}
+
+#tecnologia{
+    display: block;
+    position: absolute;
+    left: 810px;
+    top: 29px;
+    color: white;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 12px ; 
+    font-weight: bold;  
+    text-align: center;
+    cursor: pointer; 
+}
+
+#linha-vertical4 {
+    display: block;
+    position: absolute;
+    height: 150px;
+    left: 950px;
+    border-right: 1px solid rgba(185, 184, 184, 0.1);
+}
+
+#separador3{
+    display: block;
+    position: absolute;
+    left: 945px;
+    top: 73px;   
+}
+
+#pessoas{
+    display: block;
+    position: absolute;
+    left: 990px;
+    top: 29px;
+    color: white;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 12px ; 
+    font-weight: bold;  
+    text-align: center;
+    cursor: pointer; 
+}
